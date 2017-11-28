@@ -1,5 +1,7 @@
-h1 {
+#header{
+    color: white;
     text-align: center;
+    padding: 30px;
 }
 
 .instructions {
@@ -8,39 +10,44 @@ h1 {
     background-color: black;
     display: block;
     width: 40%;
-    font-size: 150%;
+    font-size: 110%;
+    padding: 5px;
+    border: dashed;
 }
 
-.container{
-    margin-top: 50px;
-	text-align: center;
-	height: 100%;
-	width: 700px;
+.container {
+    margin-top: 5px;
+    text-align: center;
+    height: 50%;
+    width: 500px;
 }
+
 
 /* Background wallpaper */
+
 body {
-    background-image: url("http://jerzeespub.com/wp-content/uploads/2013/04/about-background.png");
+    background-image: url("http://floridagameshow.maineweddingplan.netdna-cdn.com/wp-content/uploads/tampa-corporate-event-background.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: right top;
     background-attachment: fixed;
 }
 
- .question, .answers {
+.q,
+.answers,.multipleChoice, #answer, #finalMessage, #wrongAnswers, #unanswered, #resetButton {
+    color: white;
     margin: auto;
     text-align: center;
-    margin-top: 30px;
-    color: white;
+    
     font-size: 130%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     /* display: none; */
 }
 
-@media screen and (max-width:640px){
-	.container{
-		width: 500px;
-		margin-top: 200px;
-		size: 200%;
-    }	
+@media screen and (max-width:640px) {
+    .container {
+        width: 500px;
+        margin-top: 50px;
+        size: 200%;
+    }
 }

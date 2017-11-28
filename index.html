@@ -16,7 +16,8 @@
 
 <body>
     <div>
-        <h1>Let's answer some random fun facts!!! </h1>
+        <h1 id="header">Let's Answer Some Random Fun Facts!!! </h1>
+
     </div>
 
     <div>
@@ -32,36 +33,30 @@
     </div>
 
     <!-- Start Button -->
+
     <div class='container'>
         <button class='btn btn-primary' id='startBtn'>Start</button>
-    </div>
 
-           <!-- Questions -->
-           <div id=timeLeft></div>
-           <div id=currentQuestion></div>
-           <div class='answerList'></div>
+       <!-- For Question -->
+        <div id="timeLeft"></div>
+        <div id="currentQuestion"></div>
+        <div class="q"></div>
+        <div class="multipleChoice"></div>
 
+       <!-- For Answer -->
+        <div id="message"></div>
+        <div id="correctedAnswer"></div>
        
 
-
-    <!-- Result -->
-  <div id=message></div>
-  <div id=correctedAnswer></div>
-  <div id=ques></div>
-
-  <!-- Score -->
-  <div id=finalMessage></div>
-  <div id=correctAnswers></div>
-  <div id=wrongAnswers></div>
-  <div id=unanswered></div>
-  <div id=reset></div>
-</div>
-
-    <!-- JavaScript & JQuery-->
-    <script type="text/javascript" src="./javascript/game.js"></script>script>
-
+    <!-- For Score -->
+        <div id="finalMessage"></div>
+        <div id="answer"></div>
+        <div id="wrongAnswers"></div>
+        <div id="unanswered"></div>
+        <div id="resetButton"></div>
+    </div>
     <script src="https://code.jquery.com/jquery.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
 </body>
-
 
 </html>
